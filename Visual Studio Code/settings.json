@@ -1,21 +1,12 @@
 {
-    // 字体大小
     "editor.fontSize": 17,
-    // 字体，需要自行下载字体
     "editor.fontFamily": "Monaco, Noto Sans SC, monospace",
-    // 主题，需要下载该主题
     "workbench.colorTheme": "Monokai",
-    // 图标主题，需要下载该主题
     "workbench.iconTheme": "vscode-icons",
-    // 侧边栏位置
     "workbench.sideBar.location": "right",
-    // 获取当前时间格式，需要下载：Document This
     "insertDateString.format": "YYYY-M-D hh:mm:ss",
-    // 获取当前日期格式，需要下载：Document This
     "insertDateString.formatDate": "YYYY-M-D",
-    // eslint 保存时自动修复
     "eslint.autoFixOnSave": true,
-    // esling 监视文件类型
     "eslint.validate": [
         "javascript",
         "javascriptreact",
@@ -24,11 +15,9 @@
         "vue-html"
     ],
     "vetur.validation.template": false,
-    // Vue 美化
     "vetur.format.defaultFormatter.ts": "vscode-typescript",
     "vetur.format.defaultFormatter.html": "js-beautify-html",
     "vetur.format.defaultFormatter.js": "vscode-typescript",
-    // 函数后面加空格
     "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
     "javascript.format.insertSpaceBeforeFunctionParenthesis": true
 }
